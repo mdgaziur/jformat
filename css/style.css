@@ -1,0 +1,41 @@
+body {
+    background: #171717;
+}
+
+.node-container {
+    display: flex;
+    align-items: center;
+}
+
+.close-caret {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.json-key {
+    color: #9cdcfe;
+    cursor: pointer;
+}
+
+.json-value {
+    display: inline;
+    white-space: pre-wrap;
+}
+
+.number {
+    color: #b5cea8;
+}
+
+.string {
+    color: #ce9178;
+}
+
+.boolean {
+    color: #569cd6;
+}
+
+.object {
+    color: #fff;
+}
